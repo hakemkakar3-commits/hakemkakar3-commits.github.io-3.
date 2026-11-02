@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hakemkakar3-commits.github.io/hakemkakar3-commits.github.io-3./sitemap.xml
