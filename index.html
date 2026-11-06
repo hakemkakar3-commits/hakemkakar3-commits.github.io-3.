@@ -7,118 +7,164 @@
     <meta name="description" content="ویب‌سایت رسمی و زندگی‌نامه محترم میاه عبدالحکیم آخند زاده کاکړ، آمر پیژند حوزه نهم شهر کابل">
     <style>
         body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miah Abdul Hakim Akhundzada Kakar</title>
+    <style>
+        body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f6f9;
-            color: #333;
-            line-height: 1.8;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
+            background-color: #f4f6f9;
+            color: #333;
         }
         .container {
-            max-width: 800px;
+            max-width: 850px;
             margin: 40px auto;
             background: #fff;
-            padding: 30px;
+            padding: 40px;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
         }
-        .profile-section {
+        .profile-card {
             text-align: center;
-            border-bottom: 2px solid #eee;
+            border-bottom: 2px solid #0056b3;
             padding-bottom: 30px;
             margin-bottom: 30px;
         }
         .profile-img {
-            width: 220px;
-            height: auto;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            border: 3px solid #fff;
+            width: 180px;
+            height: 240px;
+            border-radius: 8px;
+            object-fit: cover;
+            border: 4px solid #0056b3;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+            margin-bottom: 15px;
+            background-color: #eee;
         }
-        h1 {
-            color: #1a365d;
-            font-size: 26px;
-            margin-top: 15px;
+        .profile-card h1 {
+            margin: 5px 0;
+            color: #0056b3;
+            font-size: 32px;
         }
-        h2 {
-            color: #2b6cb0;
-            border-bottom: 1px solid #e2e8f0;
-            padding-bottom: 8px;
-            margin-top: 30px;
-            font-size: 20px;
+        .profile-card h3 {
+            margin: 5px 0;
+            color: #555;
+            font-weight: 400;
         }
-        .lang-section {
-            margin-bottom: 40px;
+        .section {
+            margin-bottom: 35px;
+            padding: 20px;
+            border-right: 4px solid #0056b3;
+            background: #fafafa;
+            border-radius: 4px;
         }
-        .en-lang {
+        .section.lang-en {
+            border-right: none;
+            border-left: 4px solid #28a745;
             direction: ltr;
             text-align: left;
-            font-family: Arial, sans-serif;
+        }
+        .section.lang-ps {
+            border-right: 4px solid #dc3545;
+        }
+        .section.contact-sec {
+            border-right: 4px solid #ffc107;
+            text-align: center;
+        }
+        h2 {
+            margin-top: 0;
+            color: #222;
         }
         ul {
             padding-right: 20px;
         }
-        .en-lang ul {
-            padding-left: 20px;
+        .lang-en ul {
             padding-right: 0;
+            padding-left: 20px;
         }
         li {
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
-        strong {
-            color: #2d3748;
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+            flex-wrap: wrap;
         }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn-phone { background-color: #28a745; }
+        .btn-phone:hover { background-color: #218838; }
     </style>
 </head>
 <body>
 
 <div class="container">
-
-    <div class="profile-section">
-        <img src="profile.png" alt="Miah Abdulhakim Akhundzada Kakar" class="profile-img">
+    
+    <!-- بخش عکس و نام -->
+    <div class="profile-card">
+        <!-- هماهنگ با پسوند بزرگ فایل ارسالی شما -->
+        <img src="profile.PNG" alt="Miah Abdul Hakim Akhundzada Kakar" class="profile-img">
         <h1>میاه عبدالحکیم آخند زاده کاکړ</h1>
+        <h3>Miah Abdul Hakim Akhundzada Kakar</h3>
     </div>
 
-    <div class="lang-section">
-        <h2>زندگی‌نامه میاه عبدالحکیم آخند زاده کاکړ (دری)</h2>
-        <p><strong>معرفی اجمالی:</strong> محترم میاه عبدالحکیم آخند زاده کاکړ، فرزند عبدالحلیم، از شخصیت‌های علمی و کادرهای اداری افغانستان است. ایشان اصالتاً باشنده قریه «زمین اوغور» ولسوالی میربچه‌کوت ولایت کابل می‌باشند و در تاریخ ۱۰ جدی سال ۱۳۶۳ خورشیدی متولد شده‌اند.</p>
-        <p><strong>تحصیلات:</strong> ایشان آموزش‌های عالی خود را در رشته حقوق و علوم سیاسی در سال ۱۳۹۰ آغاز نموده و پس از چهار سال تلاش علمی، در سال ۱۳۹۴ موفق به اخذ درجه لیسانس از این رشته گردیده‌اند.</p>
-        <p><strong>سوابق کاری و مسلکی:</strong></p>
+    <!-- معرفی به زبان دری -->
+    <div class="section">
+        <h2>۱. معرفی‌نامه (دری)</h2>
+        <p><strong>میاه عبدالحکیم آخند زاده کاکړ</strong> فرزند عبدالحلیم، متولد ۱۰ جدی ۱۳۶۳ خورشیدی، اصالتاً از قریه زمین اوغور، ولسوالی میربچه‌کوت ولایت کابل افغانستان است.</p>
         <ul>
-            <li><strong>۱۳۸۷ الی ۱۳۹۷:</strong> به عنوان معلم و کارمند اداری در مکتب غازی امان‌الله خان (منطقه خیرخانه)</li>
-            <li><strong>۱۳۹۷ الی ۱۳۹۸:</strong> به عنوان معلم و کارمند در مکتب شایسته هیواد (منطقه خیرخانه)</li>
-            <li><strong>۱۳规 الی ۱۴۰۰:</strong> به عنوان معلم و کارمند در مکتب عمر خیام (منطقه سرای شمالی)</li>
-            <li><strong>۱۴۰۰ تاکنون:</strong> مشغول به خدمت به عنوان <strong>آمر پیژند حوزه نهم شهر کابل</strong></li>
+            <li><strong>تحصیلات:</strong> دارای مدرک لیسانس در رشته حقوق و علوم سیاسی.</li>
+            <li><strong>سابقه کاری:</strong> از سال ۱۳۸۷ تا ۱۴۰۰ خورشیدی در بخش معارف و تدریس در مکاتب مختلف کابل.</li>
+            <li><strong>مسئولیت فعلی:</strong> از سال ۱۴۰۰ خورشیدی تاکنون، به‌عنوان آمر پیژند حوزه نهم شهر کابل.</li>
+            <li><strong>زبان‌ها:</strong> دری، پشتو و انگلیسی.</li>
         </ul>
-        <p><strong>مهارت‌های زبانی:</strong> تسلط و آشنایی کامل به زبان‌های دری، پشتو و انگلیسی.</p>
     </div>
 
-    <div class="lang-section">
-        <h2>د میاه عبدالحکیم اخندزاده کاکړ ژوندلیک (پښتو)</h2>
-        <p><strong>لنډه پیژندنه:</strong> محترم میاه عبدالحکیم اخندزاده کاکړ د عبدالحلیم زوی، د افغانستان له علمي او اداري کادرو څخه دی. نوموړی په اصل کې د کابل ولایت د میربچه‌کوټ ولسوالۍ د «زمین اوغور» کلي اوسیدونکی دی او د ۱۳۶۳ لمریز کال د مرغومي په ۱۰مه نېټه زیږیدلی دی.</p>
-        <p><strong>زده کړې:</strong> نوموړي خپلې لوړې زده کړې په حقوقو او سیاسي علومو څانګه کې په ۱۳۹۰ لمریز کال کې پیل کړې او له څلور کلنې علمي هڅې وروسته، په ۱۳۹۴ لمریز کال کې د لیسانس په کچه فارغ شو.</p>
-        <p><strong>کاري او مسلکي تجربې:</strong></p>
+    <!-- معرفی به زبان پښتو -->
+    <div class="section lang-ps">
+        <h2>۲. ژوندلیک (پښتو)</h2>
+        <p><strong>میاه عبدالحکیم آخندزاده کاکړ</strong> د عبدالحلیم زوی، د کابل ولایت د میر بچه کوټ ولسوالۍ د ځمک اوغور کلي اصلي اوسېدونکی دی.</p>
         <ul>
-            <li><strong>له ۱۳۸۷ تر ۱۳۹۷:</strong> د غازي امان‌الله خان په لیسه کې (خیرخانه سیمه) د ښوونکي او اداري کارمند په توګه.</li>
-            <li><strong>له ۱۳۹۷ تر ۱۳۹۸:</strong> د شایسته هیواد په لیسه کې (خیرخانه سیمه) د ښوونکي او کارمند په توګه.</li>
-            <li><strong>له ۱۳۹۹ تر ۱۴۰۰:</strong> د عمر خیام په لیسه کې (سرای شمالي سیمه) د ښوونکي او کارمند په توګه.</li>
-            <li><strong>له ۱۴۰۰ راهیسې:</strong> د <strong>کابل ښار د نهمې حوزې د پېژند امر</strong> په توګه په خدمت بوخت دی.</li>
+            <li><strong>زده کړې:</strong> د حقوقو او سیاسي علومو په برخه کې یې د لیسانس سند ترلاسه کړی دی.</li>
+            <li><strong>کاري تجربه:</strong> له ۱۳۸۷ څخه تر ۱۴۰۰ لمریز کال پورې یې د کابل په بېلابېلو ښوونځیو کې د ښوونکي او ښوونیز کارکوونکي په توګه دنده ترلاسه کړې ده.</li>
+            <li><strong>اوسنۍ دنده:</strong> له ۱۴۰۰ لمریز کال راهیسې تر اوسه د کابل ښار د نهمې امنیتي حوزې د پېژندنې د آمر په توګه دنده ترسره کوي.</li>
         </ul>
-        <p><strong>ژبني مهارتونه:</strong> په دري، پښتو او انګلیسي ژبو پوره تسلط او بلدیت لري.</p>
     </div>
 
-    <div class="lang-section en-lang">
-        <h2>Biography of Miah Abdulhakim Akhundzada Kakar (English)</h2>
-        <p><strong>Introduction:</strong> Miah Abdulhakim Akhundzada Kakar, son of Abdulhalim, is a professional administrative official and educator from Afghanistan. Originally from "Zamin Oghur" village in the Mir Bacha Kot district of Kabul province, he was born on December 31, 1984.</p>
-        <p><strong>Education:</strong> He commenced his higher education in Law and Political Science in 2011 and successfully obtained his Bachelor’s degree in 2015 after four years of academic study.</p>
-        <p><strong>Professional Experience:</strong></p>
+    <!-- معرفی به زبان انگلیسی -->
+    <div class="section lang-en">
+        <h2>3. Biography (English)</h2>
+        <p><strong>Miah Abdul Hakim Akhundzada Kakar</strong> is an Afghan professional originally from Zamin Oghor Village, Mir Bacha Kot District, Kabul Province, Afghanistan.</p>
         <ul>
-            <li><strong>2008 – 2018:</strong> Teacher and administrative staff member at Ghazi Amanullah Khan School (Khair Khana area).</li>
-            <li><strong>2018 – 2019:</strong> Teacher and staff member at Shayesta Hewad School (Khair Khana area).</li>
-            <li><strong>2020 – 2021:</strong> Teacher and staff member at Omar Khayam School (Saray Shamali area).</li>
-            <li><strong>2021 – Present:</strong> Serving as the <strong>Head of Personnel (Amir of Pezhand) for Police District 9 (PD9) of Kabul City</strong>.</li>
+            <li><strong>Date of Birth:</strong> December 31, 1984</li>
+            <li><strong>Education:</strong> Bachelor's degree in Law and Political Science.</li>
+            <li><strong>Experience:</strong> Worked as a teacher and education professional in several schools in Kabul from 2008 to 2021.</li>
+            <li><strong>Current Position:</strong> Serving as the Identification Director of Police District 9 in Kabul City since 2021.</li>
+            <li><strong>Languages:</strong> Dari, Pashto, and English.</li>
         </ul>
-        <p><strong>Language Skills:</strong> Fully proficient in Dari, Pashto, and English.</p>
+    </div>
+
+    <!-- بخش ارتباط با من -->
+    <div class="section contact-sec">
+        <h2>ارتباط با من / Contact Me</h2>
+        <p>برای ارتباط مستقیم می‌توانید از طریق دکمهٔ زیر تماس بگیرید:</p>
+        <div class="contact-buttons">
+            <a href="tel:0784702765" class="btn btn-phone">شماره تماس: 0784702765</a>
+        </div>
     </div>
 
 </div>
